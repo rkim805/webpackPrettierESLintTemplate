@@ -9,6 +9,7 @@ module.exports = {
   devtool: 'inline-source-map',
   devServer: {
     static: './dist',
+    filename: 'index_bundle.js',
   },
   plugins: [
     new HtmlWebpackPlugin({
